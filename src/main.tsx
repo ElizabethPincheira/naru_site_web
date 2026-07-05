@@ -3,8 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 
-createRoot(document.getElementById('root')!).render(
+//3 - el navegador ejecuta esta linea y busca el div con id root en index.html
+//5 - el navegador ejecuta esta linea y construye toda la applicacion a mostrar en el div con id root
+createRoot(document.getElementById('root')!).render( //desde .render se construye toda la applicacion a mostrar en el div con id root
   <StrictMode>
+    {/* el navegador ejecuta esta linea y busca el componente App.tsx para mostrarlo en el div con id root -- vamos a App.tsx */}
     <App />
   </StrictMode>,
 )

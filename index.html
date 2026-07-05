@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>naru_web</title>
+    <title>Naru</title>
   </head>
   <body>
-    <div id="root"></div>
+    <!--1 - el navegador llega aqui y no hay nada que mostrar (no sabe que es root aun) y busca el archivo main.tsx para ejecutar el proyecto (vamos a main.tsx)-->
+    <!-- 4 - el navegador se devuelve a index.html y busca el div con id root para mostrar AQUI el contenido del sitio web-->
+    
+    <div id="root"></div> <!-- aqui se construye toda la applicacion a mostrar -->
+    
+    <!--2 - el navegador llega aqui y busca el archivo main.tsx para ejecutar el proyecto (vamos a main.tsx)-->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
