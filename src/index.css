@@ -1,0 +1,4 @@
+
+/*Aqui se cargan lo estilos glbales de la aplicacion, como tailwindcss y los estilos origen de la app*/
+
+@import "tailwindcss";   /*Tailwind ya importa preflight*/

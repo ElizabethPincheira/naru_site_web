@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+//Aqui se cargan los estilos glbales de la aplicacion, como tailwindcss y los estilos origen de la app
 import './index.css'
 import App from './App.tsx'
 
