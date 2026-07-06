@@ -1,9 +1,24 @@
+import ButtonCard from "../../components/atoms/buttonCard";
+
+
 
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+<>
+
+
+
+
+<h1 className="text-3xl font-bold underline">
+    home page!
+  </h1>
+
+      <ButtonCard/>
+
+</>
+     
   )
 }
 
-export default HomePage
+export default HomePage;
