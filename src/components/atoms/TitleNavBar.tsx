@@ -1,8 +1,12 @@
+interface TitleNavBarProps {
+    text: string;
+}
 
 
-const TitleNavBar = () => {
+
+const TitleNavBar = ({ text }: TitleNavBarProps) => {
   return (
-    <p className="font-sans text-2xl">Naru</p>
+    <p className="font-sans text-2xl">{text}</p>
   )
 }
 

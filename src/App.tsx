@@ -1,3 +1,4 @@
+import { RouterProvider } from 'react-router/dom'
 import './App.css'
 import { AppRouter } from './router/AppRouter'
 
@@ -8,7 +9,8 @@ function App() {
     //6 - el navegador ejecuta esta linea y busca el componente App.tsx para mostrarlo en el div con id root -- aqui se construye toda la applicacion a mostrar
     //<h1>Nuevo Sitio web con Zustand de Eli</h1>,
 // revisa el archivo AppRouter.tsx para ver que paginas se muestran en la aplicacion
-    <AppRouter />
+    
+    <RouterProvider router={AppRouter} />
 
   )
 }

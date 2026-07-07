@@ -1,16 +1,24 @@
-import { BrowserRouter, Route, Routes } from "react-router"
 import HomePage from "../pages/homePage/HomePage"
 import CartPage from "../pages/cartPage/CartPage"
+import MainLayout from "../Layout/MainLayout"
+import { createBrowserRouter } from "react-router"
 
 
 
-export const AppRouter = () => {
-    return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/cart" element={<CartPage />} />
-            </Routes>
-        </BrowserRouter>
-    )
-}
+export const AppRouter = createBrowserRouter([
+    {
+        path: "/",
+    element: <MainLayout />,
+    children: [
+      {
+        index: true,
+        element: <HomePage />
+      },
+      {
+        path: "/cart",
+        element: <CartPage />
+      }
+    ]
+  }
+    
+]);

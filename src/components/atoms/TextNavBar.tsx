@@ -1,8 +1,12 @@
+interface TextNavBarProps {
+    text: string;
+}
 
 
-const TextNavBar = () => {
+
+const TextNavBar = ({ text }: TextNavBarProps) => {
   return (
-      <p className="font-sans text-lg">Carrito</p>
+      <p className="font-sans text-lg">{text}</p>
 
   )
 }
