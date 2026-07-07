@@ -1,24 +1,18 @@
 import HomePage from "../pages/homePage/HomePage"
 import CartPage from "../pages/cartPage/CartPage"
-import MainLayout from "../Layout/MainLayout"
+import MainLayout from "../Layouts/MainLayout"
 import { createBrowserRouter } from "react-router"
+import FormPage from "../pages/formPage/FormPage";
 
 
 
 export const AppRouter = createBrowserRouter([
-    {
-        path: "/",
-    element: <MainLayout />,
-    children: [
-      {
-        index: true,
-        element: <HomePage />
-      },
-      {
-        path: "/cart",
-        element: <CartPage />
-      }
-    ]
+  {
+    path: "/", element: <MainLayout />, children:
+      [
+        { index: true, element: <HomePage /> },
+        { path: "/cart", element: <CartPage /> },
+        { path: "/form", element: <FormPage /> }
+      ]
   }
-    
 ]);

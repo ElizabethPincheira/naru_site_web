@@ -2,14 +2,14 @@
 
 //esta card cambia, me imagino que aqui se aplica el store?
 
-interface titileCardProps {
+interface titleCardProps {
     text : string
 }
 
-const TitileCard = ({text}:titileCardProps) => {
+const TitleCard = ({text}:titleCardProps) => {
   return (
     <p className="font-sans">{text}</p>
   )
 }
 
-export default TitileCard
+export default TitleCard

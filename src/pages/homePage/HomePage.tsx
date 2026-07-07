@@ -1,6 +1,6 @@
 
-import Hero from "../../components/organism/Hero";
-import ProductGrid from "../../components/organism/ProductGrid";
+import Hero from "../../components/organisms/Hero";
+import ProductGrid from "../../components/organisms/ProductGrid";
 
 
 const HomePage = () => {
