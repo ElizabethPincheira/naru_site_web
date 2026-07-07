@@ -21,6 +21,14 @@ export const TEXTS =   {
     //constantes PRODUCTGRID
     textTitleProductGrid :"Nuestros maceteros",
 
+    //constantes CARTPAGE
+    textTitleCartPage : "Carrito de compras",
+
+    //constante BUTTONGENERIC 
+    textButtonGenericCont : "Continuar con la compra",
+
+    textButtonGenericRetr : "Retroceder"
+
 
 
 
