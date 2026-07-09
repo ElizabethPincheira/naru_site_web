@@ -3,6 +3,7 @@ import CartPage from "../pages/cartPage/CartPage"
 import MainLayout from "../Layouts/MainLayout"
 import { createBrowserRouter } from "react-router"
 import FormPage from "../pages/formPage/FormPage";
+import ResumePage from "../pages/resumePage/ResumePage";
 
 
 
@@ -12,7 +13,8 @@ export const AppRouter = createBrowserRouter([
       [
         { index: true, element: <HomePage /> },
         { path: "/cart", element: <CartPage /> },
-        { path: "/form", element: <FormPage /> }
+        { path: "/form", element: <FormPage /> },
+        { path: "/resume", element: <ResumePage /> },
       ]
   }
 ]);

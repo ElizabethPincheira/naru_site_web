@@ -6,6 +6,7 @@ import Card from "../molecules/Card"
 const ProductGrid = () => {
     return (
         <>
+
             <section className="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="productos">
                 <div className="flex flex-col md:flex-row justify-center mb-12 gap-4">
                     <H2Title
@@ -19,6 +20,7 @@ const ProductGrid = () => {
                     <Card />
                 </div>
             </section>
+
         </>
     );
 };

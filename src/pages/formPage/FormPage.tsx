@@ -1,8 +1,11 @@
+import Formulario from "../../components/organisms/Formulario"
 
 
 const FormPage = () => {
   return (
-    <div>FormPage</div>
+  
+  
+  <Formulario/>
   )
 }
 

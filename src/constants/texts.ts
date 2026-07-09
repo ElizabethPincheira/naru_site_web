@@ -12,6 +12,8 @@ export const TEXTS =   {
 
     textButtonMoreItems : "Ver más productos",
 
+    textButtonContinuar : "Continuar",
+
     //constantes NAVBAR
     textTitleNavBar: "Naru",
     textNavBar: "Carrito",
@@ -40,6 +42,12 @@ export const TEXTS =   {
     textDeleteCart : "Eliminar",
 
     textMoreItemsCart : "¿Buscas algo más? Explora nuestra colección",
+
+    textTitleResume : "Resumen",
+
+    textResumeSubTotal : "Sub total",
+
+    textResumeTotal : "Total",
 
 
 
