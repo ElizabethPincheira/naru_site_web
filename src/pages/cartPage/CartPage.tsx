@@ -1,11 +1,11 @@
-import ListCarrito from "../../components/molecules/ListCarrito"
+import ProductCarrito from "../../components/organisms/ProductCarrito"
 
 
 
 const CartPage = () => {
   return (
 
-    <ListCarrito/>
+    <ProductCarrito/>
   )
 }
 

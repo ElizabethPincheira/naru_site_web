@@ -1,8 +1,23 @@
-
 /*Aqui se cargan lo estilos glbales de la aplicacion, como tailwindcss y los estilos origen de la app*/
 
-@import "tailwindcss";   /*Tailwind ya importa preflight*/
+@import "tailwindcss";
+/*Tailwind ya importa preflight*/
+
+/* Aquí estan los diseños de stitch*/
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
 
 body {
-  background-color: rgb(155, 152, 152);
+  background-color: #fcf9f4;
+  color: #1c1c19;
+  overflow-x: hidden;
+  /*Aqui deberian estar los bordes del sitio*/
 }
+
+
+
+
+

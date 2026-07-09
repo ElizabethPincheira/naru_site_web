@@ -3,8 +3,7 @@ import { useNavigate } from "react-router"
 import { TEXTS } from "../../constants/texts"
 import ButtonCard from "../atoms/ButtonCard"
 import ImageCard from "../atoms/ImageCard"
-import PriceCard from "../atoms/PriceCard"
-import TitleCard from "../atoms/TitleCard"
+import Parrafo1 from "../atoms/Parrafo1"
 
 
 
@@ -14,27 +13,48 @@ const Card = () => {
   const navigate = useNavigate();
 
 
- const irA = () => {
+  const irA = () => {
     console.log("estoy llendo al carrito")
     navigate("/form");
- }
+  }
+  //
 
   return (
     <>
+      <div className="group bg-surface-container-lowest cement-border rounded-lg overflow-hidden transition-transform duration-300 hover:scale-[1.02]">
 
-      <TitleCard
-        text="titulo que cambia"
-      />
+        <div className="aspect-square relative overflow-hidden bg-surface-variant">
+          <ImageCard />
+        </div>
 
-      <ImageCard />
+        <div className="p-6 space-y-3">
 
-      <PriceCard
-        text={"5000"} />
+          <Parrafo1
+            text="**Titulo**"
+          />
 
-      <ButtonCard
-        text={TEXTS.textButtonCard}
-        onClick={() => irA()}
-      />
+          <Parrafo1
+            text="**Descripcion**"
+          />
+
+
+          <div className="flex items-center gap-2">
+
+            <Parrafo1
+              text="**Precio**" />
+          </div>
+
+          <ButtonCard
+            text={TEXTS.textButtonCard}
+            onClick={() => irA()}
+          />
+
+        </div>
+
+
+
+
+      </div>
     </>
 
 
@@ -42,7 +62,5 @@ const Card = () => {
 }
 
 export default Card
-function useNavigateate() {
-  throw new Error("Function not implemented.")
-}
+
 

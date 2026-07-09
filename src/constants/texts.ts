@@ -10,6 +10,8 @@ export const TEXTS =   {
     //constantes BUTTONS CTA
     textButtonCta: "Saber más",
 
+    textButtonMoreItems : "Ver más productos",
+
     //constantes NAVBAR
     textTitleNavBar: "Naru",
     textNavBar: "Carrito",
@@ -29,7 +31,17 @@ export const TEXTS =   {
 
     textButtonGenericRetr : "Retroceder",
 
-    textNavBarCart : "Carrito"
+    textNavBarCart : "Carrito",
+
+    textTitleCart : "Tu Carrito",
+
+    textParrafoCart : "Revisa tus productos seleccionados antes de finalizar",
+
+    textDeleteCart : "Eliminar",
+
+    textMoreItemsCart : "¿Buscas algo más? Explora nuestra colección",
+
+
 
 
 

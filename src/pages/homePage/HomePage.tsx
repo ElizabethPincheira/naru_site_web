@@ -6,16 +6,9 @@ import ProductGrid from "../../components/organisms/ProductGrid";
 const HomePage = () => {
   return (
     <>
-
-      
-
-      <Hero />
-
-      <ProductGrid />
-
-      
+        <Hero />
+        <ProductGrid />
     </>
-
   )
 }
 
