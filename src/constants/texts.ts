@@ -49,6 +49,10 @@ export const TEXTS =   {
 
     textResumeTotal : "Total",
 
+    textTitleForm : "Datos personales",
+
+    
+
 
 
 
