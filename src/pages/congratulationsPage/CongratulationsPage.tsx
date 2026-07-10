@@ -1,7 +1,8 @@
+import Congratulations from "../../components/organisms/Congratulations"
 
 const CongratulationsPage = () => {
   return (
-    <div>CongratulationsPage</div>
+    <Congratulations/>
   )
 }
 

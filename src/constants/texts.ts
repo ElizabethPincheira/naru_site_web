@@ -65,6 +65,12 @@ export const TEXTS =   {
 
     textTotalFin : "Total final",
 
+    textCongratulation : "¡Muchas Gracias por tu Compra!",
+
+    textParrafoCongratulation : "Tu pedido de maceteros artesanales está en camino. Te enviamos un correo con los detalles para que puedas realizar el seguimiento.",
+
+    textButtonV : "Volver al inicio",
+
 
 
     

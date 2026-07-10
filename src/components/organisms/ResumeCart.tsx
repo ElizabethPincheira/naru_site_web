@@ -21,10 +21,6 @@ const ResumeCart = () => {
     }
 
 
-
-
-
-
   return (
     <>
       <div className="font-body-md text-body-md overflow-x-hidden">

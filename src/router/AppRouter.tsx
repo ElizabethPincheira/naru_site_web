@@ -13,11 +13,12 @@ export const AppRouter = createBrowserRouter([
     path: "/", element: <MainLayout />, children:
       [
         { index: true, element: <HomePage /> },
-        { path: "/cart", element: <CartPage /> },
-        { path: "/form", element: <FormPage /> },
-        { path: "/resume", element: <ResumePage /> },
-        { path: "/congratulation", element: <CongratulationsPage /> },
+        { path: "/cart", element: <CartPage /> }
+      ],
 
-      ]
-  }
+  },
+  { path: "/form", element: <FormPage /> },
+  { path: "/resume", element: <ResumePage /> },
+  { path: "/congratulation", element: <CongratulationsPage /> },
+
 ]);
