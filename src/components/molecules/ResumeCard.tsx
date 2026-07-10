@@ -7,7 +7,7 @@ const ResumeCart = () => {
 
     return (
         <>
-            <div className="flex items-center gap-6 p-4 border border-outline-variant/30 rounded-lg bg-surface-container-lowest transition-transform hover:scale-[1.01]">
+            <div className=" flex items-center gap-6 p-4 border border-outline-variant/30 rounded-lg bg-surface-container-lowest transition-transform hover:scale-[1.01]">
                 <div className="w-24 h-24 md:w-32 md:h-32 bg-surface-container shrink-0 overflow-hidden rounded">
                     <ImageCard />
                 </div>
@@ -23,6 +23,7 @@ const ResumeCart = () => {
                         <Parrafo1
                             text="**Descripcion**"
                         />
+                        
 
                         <div className="mt-2 flex items-center gap-2">
                             <Parrafo1

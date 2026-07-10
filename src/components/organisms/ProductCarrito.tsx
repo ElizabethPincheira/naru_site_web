@@ -10,7 +10,7 @@ const ProductCarrito = () => {
   return (
 
     <>
-      <main className="grow max-w-container-max mx-auto w-full px-margin-mobile md:px-margin-desktop py-12">
+      <main className="grow px-10 max-w-container-max mx-auto w-full px-margin-mobile md:px-margin-desktop py-12">
         <div className="my-8">
           <H2Title
             text={TEXTS.textTitleCart} />
@@ -19,18 +19,21 @@ const ProductCarrito = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           <div className="lg:col-span-8 space-y-6">
-            <div className="flex items-center gap-6 p-4 border border-outline-variant/30 rounded-lg bg-surface-container-lowest transition-transform hover:scale-[1.01]">
+            <div className="space-y-6">
               <ItemCart />
+              <MoreItemCart />
             </div>
-            <MoreItemCart />
           </div>
+          <div className="lg:col-span-4 sticky top-28">
+            <div className="sticky top-28">
+              <Resume />
+            </div>
+          </div>
+
         </div>
 
 
-        <div className="lg:col-span-4 sticky top-28">
 
-          <Resume />
-        </div>
       </main>
 
     </>

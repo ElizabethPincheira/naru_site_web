@@ -41,7 +41,7 @@ export const TEXTS =   {
 
     textDeleteCart : "Eliminar",
 
-    textMoreItemsCart : "¿Buscas algo más? Explora nuestra colección",
+    textMoreItemsCart : "¿Buscas algo más? Explora nuestra colección Buscas algo más? Explora nuestra colección",
 
     textTitleResume : "Resumen",
 
@@ -70,6 +70,8 @@ export const TEXTS =   {
     textParrafoCongratulation : "Tu pedido de maceteros artesanales está en camino. Te enviamos un correo con los detalles para que puedas realizar el seguimiento.",
 
     textButtonV : "Volver al inicio",
+
+    textResumeSubTotalDespacho : "Costo de despacho"
 
 
 

@@ -5,10 +5,11 @@ interface ParrafoProps {
 
 const Parrafo1 = ({ text }: ParrafoProps) => {
   return (
-    <p className="font-sans text-xl">
+    <p className="font-sans text-xl wrap-break-words whitespace-normal">
       {text}
     </p>
   )
 }
 
 export default Parrafo1
+

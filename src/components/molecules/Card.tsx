@@ -19,17 +19,22 @@ const Card = () => {
 
   return (
     <>
-      <div className="group bg-surface-container-lowest justify-items-center cement-border rounded-lg overflow-hidden transition-transform duration-300 hover:scale-[1.02]">
+      <div className=" bg-gray-100 group cement-border rounded-lg overflow-hidden transition-transform duration-300 hover:scale-[1.02]">
         <ImageCard />
-        <div className="w-full pt-4 space-y-5">
-          <Parrafo2
+        <div className="w-full p-4 h-56 flex flex-col">
+          <Parrafo1
             text="**Titulo**"
           />
-          <Parrafo1
-            text="**Descripcion***************"
+          <div className="flex-1 overflow-hidden">
+          <Parrafo2
+            text="**Descripcion************
+            *********^^^^^^^^^^********"
           />
+          </div>
+          <div className="flex justify-end">
             <Parrafo1
               text="**Precio**" />
+          </div>
           <ButtonCard
             text={TEXTS.textButtonCard}
             onClick={() => irA()}
@@ -43,5 +48,4 @@ const Card = () => {
 }
 
 export default Card
-
 
