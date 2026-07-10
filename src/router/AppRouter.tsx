@@ -4,6 +4,7 @@ import MainLayout from "../Layouts/MainLayout"
 import { createBrowserRouter } from "react-router"
 import FormPage from "../pages/formPage/FormPage";
 import ResumePage from "../pages/resumePage/ResumePage";
+import CongratulationsPage from "../pages/congratulationsPage/CongratulationsPage";
 
 
 
@@ -15,6 +16,8 @@ export const AppRouter = createBrowserRouter([
         { path: "/cart", element: <CartPage /> },
         { path: "/form", element: <FormPage /> },
         { path: "/resume", element: <ResumePage /> },
+        { path: "/congratulation", element: <CongratulationsPage /> },
+
       ]
   }
 ]);

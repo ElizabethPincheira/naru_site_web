@@ -5,9 +5,6 @@ import ButtonCard from "../atoms/ButtonCard"
 import ImageCard from "../atoms/ImageCard"
 import Parrafo1 from "../atoms/Parrafo1"
 
-
-
-
 const Card = () => {
 
   const navigate = useNavigate();
@@ -15,9 +12,9 @@ const Card = () => {
 
   const irA = () => {
     console.log("estoy llendo al carrito")
-    navigate("/form");
+    navigate("/cart");
   }
-  //
+
 
   return (
     <>

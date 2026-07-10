@@ -30,15 +30,7 @@ const ProductCarrito = () => {
         <div className="lg:col-span-4 sticky top-28">
 
           <Resume />
-
-
         </div>
-
-
-
-
-
-
       </main>
 
     </>

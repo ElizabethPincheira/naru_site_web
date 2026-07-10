@@ -51,6 +51,22 @@ export const TEXTS =   {
 
     textTitleForm : "Datos personales",
 
+    textResumeText : "Maceteros artesanales",
+
+    titleResumePage : "Resumen de tu compra",
+
+    textTitleResumeFile : "Información del cliente",
+
+    textPedido : "Tu pedido",
+
+    textResume2 : "Sub total",
+
+    textResumeEnvio : "Envío",
+
+    textTotalFin : "Total final",
+
+
+
     
 
 

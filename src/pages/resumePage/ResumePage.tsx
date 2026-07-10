@@ -1,8 +1,10 @@
+import ResumeCart from "../../components/organisms/ResumeCart"
 
 
 const ResumePage = () => {
   return (
-    <div>ResumePage</div>
+
+    <ResumeCart/>
   )
 }
 

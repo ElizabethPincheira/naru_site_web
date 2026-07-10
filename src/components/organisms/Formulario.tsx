@@ -1,13 +1,31 @@
+import { useNavigate } from "react-router";
 import { TEXTS } from "../../constants/texts"
 import ButtonGeneric from "../atoms/ButtonGeneric"
 import H2Title from "../atoms/H2Title"
 
 
 const Formulario = () => {
+
+
+    const navigate = useNavigate();
+
+
+    const irA = () => {
+        console.log("estoy llendo al page resume")
+        navigate("/resume");
+    }
+
+    const regresar = () => {
+        console.log("estoy regresando")
+        navigate("/cart");
+    }
+
+
+
     return (
 
         <>
-            <body className="bg-background font-body-md text-on-surface organic-texture min-h-screen flex items-center justify-center px-margin-mobile md:px-0">
+            <div className="bg-background font-body-md text-on-surface organic-texture min-h-screen flex items-center justify-center px-margin-mobile md:px-0">
                 <main className="w-full max-w-lg mx-auto py-12">
                     <div className="text-center mb-10 my-8">
                         <H2Title
@@ -38,30 +56,18 @@ const Formulario = () => {
                             </label>
                             <textarea className="w-full bg-surface-container-low border-outline-variant/50 border rounded py-3 px-4 text-on-surface font-body-md form-input-focus transition-all duration-200 resize-none" placeholder="Calle, número, departamento, ciudad..." ></textarea>
                         </div>
-
-
-
-
                     </div>
-
                     <div className="flex flex-col md:flex-row gap-4 pt-4">
-
-
                         <ButtonGeneric
                             text={TEXTS.textButtonGenericRetr}
-                            onClick={() => { console.log("boton regresar desde formulario") }} />
+                            onClick={() => { regresar(), console.log("boton regresar al formulario") }} />
 
                         <ButtonGeneric
                             text={TEXTS.textButtonGenericCont}
-                            onClick={() => { console.log("boton continuar desde formulario") }} />
-
-
-
+                            onClick={() =>{irA(), console.log("boton al resume")}  } />
                     </div>
-
-
                 </main>
-            </body >
+            </div >
         </>
     )
 }
