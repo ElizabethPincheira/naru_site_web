@@ -7,7 +7,7 @@ interface ButtonCardProps {
 const ButtonCard = ({ text, onClick }: ButtonCardProps) => {
     return (
         // Botón simple con utilidades de Tailwind
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={onClick}>
+        <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2  rounded w-full" onClick={onClick}>
             {text}
         </button>
     );

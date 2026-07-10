@@ -32,7 +32,7 @@ const Hero = () => {
                             <Parrafo1 text={TEXTS.textHero} />
 
                         </div>
-                        <div className="space flex justify-center items-center gap-12 py-4">
+                        <div className="space flex justify-center items-center gap-6 py-4">
 
 
                             <ButtonCta

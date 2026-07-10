@@ -5,7 +5,7 @@ interface H2TitleProps {
 
 const H2Title = ({text}:H2TitleProps) => {
   return (
-    <h2 className="font-headline-lg text-headline-lg text-primary">{text}</h2>
+    <h2 className="text-2xl">{text}</h2>
   )
 }
 
