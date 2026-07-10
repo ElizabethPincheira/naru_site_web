@@ -1,6 +1,4 @@
 
-
-
 import { ImCart } from 'react-icons/im';
 
 const IconNavBar = () => {

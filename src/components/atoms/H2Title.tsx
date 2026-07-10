@@ -1,15 +1,11 @@
 
-
-
 interface H2TitleProps {
     text: string
 }
 
-
-
 const H2Title = ({text}:H2TitleProps) => {
   return (
-    <h2 className="font-headline-lg text-headline-lg text-primary uppercase">{text}</h2>
+    <h2 className="font-headline-lg text-headline-lg text-primary">{text}</h2>
   )
 }
 

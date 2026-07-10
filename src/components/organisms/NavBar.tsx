@@ -9,33 +9,38 @@ const NavBar = () => {
     const navigate = useNavigate();
 
 
-    const irA = () => {
+    const irACart = () => {
         console.log("estoy llendo al carrito")
         navigate("/cart");
+    }
+
+    const irAHome = () => {
+        console.log("estoy llendo al carrito")
+        navigate("/");
     }
 
 
     return (
         <>
-            <header className="fixed top-0 z-50 bg-background/95 backdrop-blur-sm border-outline-variant/30 w-full">
+            <div className="fixed top-0 z-50 bg-background/95 backdrop-blur-sm border-outline-variant/30 w-full">
 
-                <nav className="flex justify-between items-center w-full px-margin-desktop py-4 max-w-container-max mx-auto">
+                <nav className="flex justify-between items-center w-full px-margin-desktop py-4 px-8 max-w-container-max mx-auto">
 
 
                     <div className="font-headline-md text-headline-md text-primary tracking-tight">
 
                         <div className="basis-1/4">
-                            <H2Title text={TEXTS.textTitleNavBar} />
+                        <ButtonNavBar text={TEXTS.textTitleNavBar} onClick={() => irAHome()}/>
                         </div>
                     </div>
                     <div className="hidden md:flex gap-8">
                         <ButtonNavBar
                             text={TEXTS.textNavBarCart}
-                            onClick={() => irA()}
+                            onClick={() => irACart()}
                         />
                         <ButtonNavBar
-                            text={TEXTS.textNavBarCart}
-                            onClick={() => irA()}
+                            text={"**Otra Page**"}
+                            onClick={() => console.log("aun no se crea")}
                         />
                     </div>
                     <div className="flex items-center gap-4">
@@ -47,7 +52,7 @@ const NavBar = () => {
                     </div>
 
                 </nav>
-            </header>
+            </div>
         </>
 
     )

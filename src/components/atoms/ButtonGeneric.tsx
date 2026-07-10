@@ -4,8 +4,6 @@ interface ButonGenericProps{
 
 }
 
-
-
 const ButtonGeneric = ({text,onClick}:ButonGenericProps) => {
   return (
     <button

@@ -3,7 +3,7 @@ interface ParrafoProps {
     text: string;
 }
 
-const Parrafo1 = ({ text }: ParrafoProps) => {
+const Parrafo2 = ({ text }: ParrafoProps) => {
   return (
     <p className="font-sans text-xl">
       {text}
@@ -11,4 +11,4 @@ const Parrafo1 = ({ text }: ParrafoProps) => {
   )
 }
 
-export default Parrafo1
+export default Parrafo2

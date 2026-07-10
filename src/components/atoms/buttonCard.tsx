@@ -4,7 +4,6 @@ interface ButtonCardProps {
     onClick: () => void;
 }
 
-
 const ButtonCard = ({ text, onClick }: ButtonCardProps) => {
     return (
         // Botón simple con utilidades de Tailwind
