@@ -2,7 +2,6 @@ import { useNavigate } from "react-router"
 import { TEXTS } from "../../constants/texts"
 import ButtonNavBar from "../atoms/ButtonNavBar"
 import IconCart from "../atoms/IconCart"
-import { ImMenu } from "react-icons/im"
 import { DropdownIconSimple } from "../molecules/DropdownIconSimple"
 
 const NavBar = () => {

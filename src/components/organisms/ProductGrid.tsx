@@ -8,8 +8,8 @@ const ProductGrid = () => {
         <>
 
 
-            <section className="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="productos">
-                <div className="flex flex-col md:flex-row justify-center mb-12 gap-4">
+            <section className="px-15 py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="productos">
+                <div className="flex flex-col md:flex-row justify-center text-center mb-12 gap-4">
                     <H2Title
                         text={TEXTS.textTitleProductGrid}
                     />
