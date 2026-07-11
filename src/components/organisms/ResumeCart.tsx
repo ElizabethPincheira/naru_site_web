@@ -9,16 +9,16 @@ import ButtonGeneric from "../atoms/ButtonGeneric"
 const ResumeCart = () => {
 
   const navigate = useNavigate();
-    const irA = () => {
-        console.log("terminar compra y pagar flow")
-        navigate("/congratulation");
-        
-    }
+  const irA = () => {
+    console.log("terminar compra y pagar flow")
+    navigate("/congratulation");
 
-    const regresar = () => {
-        console.log("estoy regresando al form")
-        navigate("/cart");
-    }
+  }
+
+  const regresar = () => {
+    console.log("estoy regresando al form")
+    navigate("/cart");
+  }
 
 
   return (
@@ -33,8 +33,8 @@ const ResumeCart = () => {
               <H2Title
                 text={TEXTS.titleResumePage} />
             </div>
-            <div className="grid grid-cols-1 gap-8">
-              <section className="bg-gray-100 mx-8 bg-surface-container-low  p-8 rounded-lg">
+            <div className="grid grid-cols-1 gap-8 ">
+              <section className="bg-gray-100 mx-8 bg-surface-container-low  p-4 rounded-lg">
                 <div className="flex items-center gap-3 mb-6">
 
                   <H2Title
@@ -61,7 +61,7 @@ const ResumeCart = () => {
                 </div>
               </section>
 
-              <section className=" bg-gray-100 mx-8 bg-surface-container-lowest p-8 rounded-lg">
+              <section className=" bg-gray-100 mx-8 bg-surface-container-lowest p-4 rounded-lg">
 
                 <div className="flex items-center gap-3 mb-6">
                   <H2Title text={TEXTS.textPedido} />
@@ -85,33 +85,17 @@ const ResumeCart = () => {
 
                 </div>
               </section>
-              <div className="flex flex-col md:flex-row gap-4 pt-4">
+              <div className="flex flex-col md:flex-row gap-4 pt-8 p-8 ">
+                <ButtonGeneric
+                  text={TEXTS.textButtonGenericRetr}
+                  onClick={() => { regresar(), console.log("boton regresar al formulario") }} />
 
-
-                        <ButtonGeneric
-                            text={TEXTS.textButtonGenericRetr}
-                            onClick={() => { regresar(), console.log("boton regresar al formulario") }} />
-
-                        <ButtonGeneric
-                            text={TEXTS.textButtonGenericCont}
-                            onClick={() =>{irA(), console.log("ir al flow")}  } />
-
-
-
-                    </div>
-
-
-
-
+                <ButtonGeneric
+                  text={TEXTS.textButtonGenericCont}
+                  onClick={() => { irA(), console.log("ir al flow") }} />
+              </div>
             </div>
-
-
-
-
           </div >
-
-
-
         </main >
 
 
