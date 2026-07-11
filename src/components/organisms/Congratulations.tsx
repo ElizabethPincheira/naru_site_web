@@ -13,17 +13,14 @@ const Congratulations = () => {
     const irA = () => {
         console.log("regresa al inicio")
         navigate("/");
-        
+
     }
-
-
-
 
     return (
         <>
-            <div className="bg-background text-on-background min-h-screen flex flex-items-center justify-center p-4 my-10">
-                <main className="relative z-10 w-full max-w-2xl bg-surface-container-lowest rounded-xl border border-outline-variant/30 overflow-hidden text-center transition-all duration-700">
-                    <div className="px-gutter py-16 flex flex-col items-center">
+            <div className="bg-background text-on-background flex flex-items-center justify-center p-4 my-10">
+                <main className="relative bg-surface-container-lowest rounded-lg overflow-hidden text-center  ">
+                    <div className="bg-gray-100 px-gutter py-16 flex flex-col items-center">
                         <div className="relative mb-12 success-animation">
                             <div className="w-48 h-48 bg-secondary-container/50 rounded-full flex items-center justify-center relative overflow-hidden">
                                 <ImageCard />
@@ -33,18 +30,13 @@ const Congratulations = () => {
                             <H2Title text={TEXTS.textCongratulation} />
                             <Parrafo1 text={TEXTS.textParrafoCongratulation} />
                         </div>
-<ButtonGeneric text={TEXTS.textButtonV} onClick={() => irA()}/>
-
+                        <div className="flex flex-col md:flex-row gap-4 pt-8 p-8 ">
+                            <ButtonGeneric text={TEXTS.textButtonV} onClick={() => irA()} />
+                        </div>
                     </div>
-
                 </main>
             </div>
-
-
         </>
-
-
-
     )
 }
 

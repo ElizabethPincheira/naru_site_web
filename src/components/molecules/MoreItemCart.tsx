@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router";
 import { TEXTS } from "../../constants/texts"
-import ButtonGeneric from "../atoms/ButtonGeneric"
 import Parrafo1 from "../atoms/Parrafo1"
+import ButtonDeco from "../atoms/ButtonDeco";
 
 
 const MoreItemCart = () => {
@@ -24,7 +24,7 @@ const navigate = useNavigate();
                 </div>
                 <div className="mx-8">
 
-                <ButtonGeneric
+                <ButtonDeco
                     text={TEXTS.textButtonMoreItems}
                     onClick={() => irAHome()} />
 

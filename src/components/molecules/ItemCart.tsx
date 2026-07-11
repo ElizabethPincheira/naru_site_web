@@ -28,7 +28,7 @@ const ItemCart = () => {
                             text="**Detalle o cantidad*"
                         />
                     </div>
-                    <div className="flex flex-col items-start md:items-end gap-2">
+                    <div className="flex flex-col items-end md:items-end gap-2">
 
                         <Parrafo1
                             text="**Precio**" />

@@ -29,7 +29,7 @@ export const TEXTS =   {
     textTitleCartPage : "Carrito de compras",
 
     //constante BUTTONGENERIC 
-    textButtonGenericCont : "Continuar con la compra",
+    textButtonGenericCont : "Continuar",
 
     textButtonGenericRetr : "Retroceder",
 

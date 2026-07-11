@@ -4,6 +4,7 @@ import H2Title from "../atoms/H2Title"
 import Parrafo1 from "../atoms/Parrafo1"
 import ResumeCard from "../molecules/ResumeCard"
 import ButtonGeneric from "../atoms/ButtonGeneric"
+import ButtonDeco from "../atoms/ButtonDeco"
 
 
 const ResumeCart = () => {
@@ -85,11 +86,11 @@ const ResumeCart = () => {
 
                 </div>
               </section>
+
               <div className="flex flex-col md:flex-row gap-4 pt-8 p-8 ">
-                <ButtonGeneric
+                <ButtonDeco
                   text={TEXTS.textButtonGenericRetr}
                   onClick={() => { regresar(), console.log("boton regresar al formulario") }} />
-
                 <ButtonGeneric
                   text={TEXTS.textButtonGenericCont}
                   onClick={() => { irA(), console.log("ir al flow") }} />
