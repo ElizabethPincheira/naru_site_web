@@ -34,7 +34,7 @@ const ResumeCart = () => {
                 text={TEXTS.titleResumePage} />
             </div>
             <div className="grid grid-cols-1 gap-8">
-              <section className="bg-surface-container-low border border-outline-variant/30 p-8 rounded-lg">
+              <section className="bg-gray-100 mx-8 bg-surface-container-low  p-8 rounded-lg">
                 <div className="flex items-center gap-3 mb-6">
 
                   <H2Title
@@ -42,26 +42,26 @@ const ResumeCart = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-12">
-                  <div className="space-y-1">
+                  <div className="space-y-1 mb-8">
                     <p className="font-label-md text-label-md text-secondary opacity-70 uppercase">Nombre Completo</p>
                     <p className="font-body-lg text-body-lg text-on-surface">Julián Rodríguez</p>
                   </div>
                 </div>
-                <div className="space-y-1">
+                <div className="space-y-1 mb-8">
                   <p className="font-label-md text-label-md text-secondary opacity-70 uppercase">Correo Electrónico</p>
                   <p className="font-body-lg text-body-lg text-on-surface">julian.rodriguez@example.com</p>
                 </div>
-                <div className="space-y-1">
+                <div className="space-y-1 mb-8">
                   <p className="font-label-md text-label-md text-secondary opacity-70 uppercase">Teléfono</p>
                   <p className="font-body-lg text-body-lg text-on-surface">+54 9 11 1234-5678</p>
                 </div>
-                <div className="space-y-1">
+                <div className="space-y-1 mb-8">
                   <p className="font-label-md text-label-md text-secondary opacity-70 uppercase">Dirección de Entrega</p>
                   <p className="font-body-lg text-body-lg text-on-surface">Av. Santa Fe 1234, CABA</p>
                 </div>
               </section>
 
-              <section className="bg-surface-container-lowest border border-outline-variant/30 p-8 rounded-lg">
+              <section className=" bg-gray-100 mx-8 bg-surface-container-lowest p-8 rounded-lg">
 
                 <div className="flex items-center gap-3 mb-6">
                   <H2Title text={TEXTS.textPedido} />
