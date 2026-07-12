@@ -8,7 +8,7 @@ export const TEXTS =   {
     textButtonCard: "Comprar",
 
     //constantes BUTTONS CTA
-    textButtonCta: "Saber más",
+    textButtonCta: "Contáctanos",
 
     textButtonMoreItems : "Ver más productos",
 

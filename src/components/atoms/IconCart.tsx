@@ -1,10 +1,10 @@
 
-import { ImCart } from 'react-icons/im';
+import { TbGardenCart } from 'react-icons/tb';
 
 const IconNavBar = () => {
 
     return (
-        <ImCart />
+        <TbGardenCart />
     )
 }
 

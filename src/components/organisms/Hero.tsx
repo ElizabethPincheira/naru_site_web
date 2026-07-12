@@ -5,7 +5,6 @@ import H1Title from "../atoms/H1Title"
 import Parrafo1 from "../atoms/Parrafo1"
 import ButtonDeco from "../atoms/ButtonDeco"
 
-
 const Hero = () => {
     return (
         <>
@@ -20,13 +19,13 @@ const Hero = () => {
                             <H1Title text={TEXTS.textTitleHero} />
                             <Parrafo1 text={TEXTS.textHero} />
                         </div>
-                        <div className="space flex justify-center items-center gap-6 py-4">
+                        <div className="space flex justify-center items-center py-4">
                             <ButtonCta
                                 text={TEXTS.textButtonCta}
                                 onClick={() => console.log("Botón CTA presionado")}/>
                             <div className="mx-8">
                                 <ButtonDeco
-                                    text={"*Nuestra historia"}
+                                    text={"*Nosotros"}
                                     onClick={() => console.log("Botón CTA presionado")}/>
                             </div>
                         </div>
