@@ -5,7 +5,7 @@
 export const TEXTS =   {
 
     //constantes BUTTONS
-    textButtonCard: "Comprar",
+    textButtonCard: "Agregar al carrito",
 
     //constantes BUTTONS CTA
     textButtonCta: "Contáctanos",

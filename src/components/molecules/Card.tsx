@@ -23,12 +23,14 @@ const Card = () => {
         <ImageCard />
         <div className="w-full p-4 h-56 flex flex-col">
           <Parrafo1
-            text="**Titulo**"
+            text="**Nombre**"
           />
           <div className="flex-1 overflow-hidden">
           <Parrafo2
-            text="**Descripcion************
-            *********^^^^^^^^^^********"
+            text="**Descripcion**"
+          />
+          <Parrafo2
+            text="**Stock**"
           />
           </div>
           <div className="flex justify-end">
