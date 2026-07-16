@@ -5,8 +5,12 @@ import ButtonCard from "../atoms/ButtonCard"
 import ImageCard from "../atoms/ImageCard"
 import Parrafo1 from "../atoms/Parrafo1"
 import Parrafo2 from "../atoms/Parrafo2"
+import type { MaceteroCardProps } from "@/models/product.model"
 
-const Card = () => {
+const Card = ({ maceteroCard }:MaceteroCardProps) => {
+
+
+  //console.log(maceteroCard)
 
   const navigate = useNavigate();
 
@@ -23,11 +27,11 @@ const Card = () => {
         <ImageCard />
         <div className="w-full p-4 h-56 flex flex-col">
           <Parrafo1
-            text="**Nombre**"
+            text={maceteroCard.nombre}
           />
           <div className="flex-1 overflow-hidden">
           <Parrafo2
-            text="**Descripcion**"
+            text={maceteroCard.descripcion}
           />
           <Parrafo2
             text="**Stock**"

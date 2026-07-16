@@ -4,7 +4,7 @@ import type { ProductModel } from "@/models/product.model"
 
 //Mocks es información falsa para simular el backend.
 
-export const productos:ProductModel[] = [
+export const productosMocks:ProductModel[] = [
     {
     id: "M001",
     nombre: "Macetero Minimalista",
@@ -80,4 +80,3 @@ export const productos:ProductModel[] = [
 
 ];
 
-console.log(productos)
